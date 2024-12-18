@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Consulting Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="font-['Inter'] antialiased">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <img src="images/logo.svg" alt="Strategic Consulting Logo" class="h-10 w-auto">
+                    <h1 class="ml-3 text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Strategic Consulting</h1>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#case-studies" class="nav-link">Case Studies</a>
+                    <a href="#team" class="nav-link">Our Team</a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <a href="#contact" class="btn-primary">Contact Us</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="mobile-menu-button p-2">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div class="mobile-menu hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="mobile-nav-link">Home</a>
+                <a href="#services" class="mobile-nav-link">Services</a>
+                <a href="#case-studies" class="mobile-nav-link">Case Studies</a>
+                <a href="#team" class="mobile-nav-link">Our Team</a>
+                <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
+                <a href="#contact" class="mobile-nav-link">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative min-h-screen flex items-center" id="home">
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-700 opacity-90"></div>
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=2091&q=80" 
+                 alt="Background" 
+                 class="w-full h-full object-cover">
+        </div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-white">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-8">
+                    Transform Your Business<br>
+                    <span class="text-3xl md:text-5xl opacity-90">with Expert Consulting</span>
+                </h1>
+                <p class="mt-3 max-w-md mx-auto text-xl sm:text-2xl md:mt-5 md:max-w-3xl opacity-90">
+                    Strategic solutions tailored to drive growth, innovation, and success in your organization.
+                </p>
+                <div class="mt-10 flex justify-center gap-4">
+                    <a href="#contact" class="btn-primary-large">Get Started</a>
+                    <a href="#services" class="btn-secondary-large">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0">
+            <svg class="w-full h-24 text-white" viewBox="0 0 1440 74" fill="none">
+                <path d="M0,0 C240,70 480,70 720,35 C960,0 1200,0 1440,35 L1440 74 L0 74 Z" fill="currentColor"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive consulting solutions for your business needs</p>
+            </div>
+            <div class="mt-16 grid gap-8 grid-cols-1 md:grid-cols-3">
+                <!-- Services will be dynamically populated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="section-title">Case Studies</h2>
+                <p class="section-subtitle">Real results from real clients</p>
+            </div>
+            <div class="mt-16 grid gap-8 grid-cols-1 md:grid-cols-3">
+                <!-- Case studies will be dynamically populated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="section-title">Meet Our Team</h2>
+                <p class="section-subtitle">Expert consultants ready to help you succeed</p>
+            </div>
+            <div class="mt-16 grid gap-8 grid-cols-1 md:grid-cols-3">
+                <!-- Team members will be dynamically populated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gradient-to-b from-gray-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">What our clients say about us</p>
+            </div>
+            <div class="mt-16 relative">
+                <div class="testimonials-carousel">
+                    <!-- Testimonials will be dynamically populated -->
+                </div>
+                <div class="flex justify-center mt-8 space-x-4">
+                    <button class="carousel-control carousel-prev">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="carousel-control carousel-next">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-indigo-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-white text-center">
+                <div class="stat-item">
+                    <div class="text-4xl font-bold mb-2">500+</div>
+                    <div class="text-lg opacity-90">Clients Served</div>
+                </div>
+                <div class="stat-item">
+                    <div class="text-4xl font-bold mb-2">95%</div>
+                    <div class="text-lg opacity-90">Success Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="text-4xl font-bold mb-2">20+</div>
+                    <div class="text-lg opacity-90">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="text-4xl font-bold mb-2">50+</div>
+                    <div class="text-lg opacity-90">Expert Consultants</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+                <div>
+                    <h2 class="section-title text-left">Get in Touch</h2>
+                    <p class="mt-4 text-xl text-gray-600">Ready to transform your business? Contact us today for a free consultation.</p>
+                    <div class="mt-8 space-y-6">
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-map-marker-alt text-2xl text-blue-600"></i>
+                            </div>
+                            <div class="ml-4">
+                                <p class="text-lg font-medium">Visit Us</p>
+                                <p class="text-gray-600">123 Business Avenue, Suite 100<br>San Francisco, CA 94105</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-phone text-2xl text-blue-600"></i>
+                            </div>
+                            <div class="ml-4">
+                                <p class="text-lg font-medium">Call Us</p>
+                                <p class="text-gray-600">+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-envelope text-2xl text-blue-600"></i>
+                            </div>
+                            <div class="ml-4">
+                                <p class="text-lg font-medium">Email Us</p>
+                                <p class="text-gray-600">contact@strategicconsulting.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                                <input type="text" id="name" class="mt-1 form-input">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                                <input type="email" id="email" class="mt-1 form-input">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700">Subject</label>
+                            <input type="text" id="subject" class="mt-1 form-input">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                            <textarea id="message" rows="4" class="mt-1 form-textarea"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn-primary w-full">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl shadow-xl">
+                <div class="max-w-3xl mx-auto px-6 py-12 text-center text-white">
+                    <h2 class="text-3xl font-bold mb-4">Stay Updated</h2>
+                    <p class="text-xl opacity-90 mb-8">Subscribe to our newsletter for the latest insights and updates</p>
+                    <form class="newsletter-form flex gap-4 max-w-md mx-auto">
+                        <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg text-gray-900">
+                        <button type="submit" class="btn-white">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center">
+                        <img src="https://via.placeholder.com/40" alt="Logo" class="h-10 w-auto">
+                        <h3 class="ml-3 text-xl font-bold">Strategic Consulting</h3>
+                    </div>
+                    <p class="mt-4 text-gray-400">Transforming businesses through strategic consulting solutions.</p>
+                    <div class="mt-6 flex space-x-4">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#services" class="footer-link">Services</a></li>
+                        <li><a href="#case-studies" class="footer-link">Case Studies</a></li>
+                        <li><a href="#team" class="footer-link">Team</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="footer-link">Strategy Consulting</a></li>
+                        <li><a href="#" class="footer-link">Digital Transformation</a></li>
+                        <li><a href="#" class="footer-link">Operations Excellence</a></li>
+                        <li><a href="#" class="footer-link">Change Management</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>123 Business Avenue, Suite 100</li>
+                        <li>San Francisco, CA 94105</li>
+                        <li>contact@strategicconsulting.com</li>
+                        <li>+1 (555) 123-4567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2024 Strategic Consulting. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Live Chat Widget -->
+    <div id="live-chat" class="fixed bottom-6 right-6 z-50">
+        <button class="chat-toggle">
+            <span class="chat-closed"><i class="fas fa-comments"></i></span>
+            <span class="chat-open hidden"><i class="fas fa-times"></i></span>
+        </button>
+        <div class="chat-window hidden">
+            <div class="chat-header">
+                <h3 class="font-bold">Live Chat</h3>
+                <p class="text-sm opacity-90">We typically reply within minutes</p>
+            </div>
+            <div class="chat-messages">
+                <!-- Chat messages will be dynamically populated -->
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message..." class="w-full p-3 border rounded-lg">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
